@@ -74,7 +74,7 @@ jobs:
 
       - name: Login to Amazon ECR
         id: ecr-login
-        uses: aws-actions/amazon-ecr-login@v1.5.3
+        uses: aws-actions/amazon-ecr-login@v1.6.0
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2.1.0
